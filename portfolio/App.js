@@ -1,16 +1,19 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { useCallback, useState } from 'react';
+import { StyleSheet} from 'react-native';
+import TitleMenu from './TitleMenu';
+
+
 
 export default function App() {
-  return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
-  );
+  
+  return <TitleMenu></TitleMenu>
 }
-
 const styles = StyleSheet.create({
+  incorrect:{
+    textDecorationLine: "line-through",
+    textDecorationStyle: "solid"
+  },
   container: {
     flex: 1,
     backgroundColor: '#fff',
@@ -18,3 +21,4 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
 });
+
