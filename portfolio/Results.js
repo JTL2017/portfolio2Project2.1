@@ -11,7 +11,7 @@ export default function Results({score})
             <Card.Title>Quiz Results</Card.Title>
 
         <View style = {styles.inner}>
-            <Text>Questions Total: 2</Text>
+            <Text>Questions Total: 3</Text>
        <Text> Final Score: <Text style = {styles.result}>{score}</Text> </Text>
 
         </View>

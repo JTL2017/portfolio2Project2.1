@@ -3,7 +3,6 @@ import { useCallback, useState } from 'react';
 import { Text, TextInput, StyleSheet, View} from 'react-native'
 import { Button, Card, CheckBox } from 'react-native-elements';
 import BeginMenu from './BeginMenu';
-import Checking from './Checking';
 import Quiz from './Quiz';
 import Results from './Results';
 
