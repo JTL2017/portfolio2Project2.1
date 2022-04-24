@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/JTL2017/portfolio2Project2.1/issues"
   },
-  "homepage": "https://github.com/JTL2017/portfolio2Project2.1#readme"
+  "homepage": "https://github.com/JTL2017/portfolio2Project2.1#readme",
+  "dependencies": {
+    "gh-pages": "^3.2.3"
+  }
 }
