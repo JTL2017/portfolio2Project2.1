@@ -32,7 +32,7 @@ export default function TitleMenu()
         <View styles = {styles.container}>
     
 
-    <Text style = {styles.intro}> Welcome, Please have a faculty member enter the schools five digit password to start the Quiz. </Text>
+    <Text style = {styles.intro}> Welcome, Please have a faculty member enter the schools five letter password to start the Quiz. </Text>
     <TextInput secureTextEntry={true} value={password} onChangeText={text => setPassword(text)} placeholder="Password" style = {styles.input}></TextInput>
         <Button title = "Submit" onPress={() => doCheck()}></Button>
         <Text>Password: "testing"</Text>
